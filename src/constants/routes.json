@@ -1,0 +1,7 @@
+
+{
+    "HOME": "/",
+    "LEAGUES":"/leagues",
+    "LEAGUES_ID":"/leagues/:id"
+  }
+  
