@@ -1,0 +1,16 @@
+@import "variables";
+
+// libraries
+@import "~normalize.css/normalize.css";
+@import "~bootstrap/scss/bootstrap";
+// base 
+@import "base";
+
+// layouts
+@import "tobBar";
+@import "alerts";
+// components
+@import "leaguesCard";
+@import "teams";
+
+@import "mediaQuery";

@@ -1,0 +1,36 @@
+
+// override bootstrap 4 variables
+
+
+$color-apple: #7eca37;
+$color-aqua-blue: #0fc0ea;
+$color-brown-grey: #9b9b9b;
+$color-primary: #00cdac;
+$color-easter-purple: #b376ff;
+$color-coral: #ff5a4d;
+$color-yellow: #ffd700;
+
+
+$theme-colors: (
+  "primary": $color-primary,
+  "secondary": $color-brown-grey,
+  "purple": $color-easter-purple,
+  "success": $color-apple,
+  "danger": $color-coral,
+  "warning": $color-yellow,
+  "info": $color-aqua-blue
+);
+
+
+// card
+//
+$card-cap-bg: #fff;
+
+
+
+
+
+// header
+$header-height: 55px;
+
+

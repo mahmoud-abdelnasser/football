@@ -1,0 +1,71 @@
+.topBar {
+    width: 100%;
+    height: 55px;
+    border: none;
+    background: #fff;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #dadada;
+    border-bottom: 2px solid #dadada;
+    .userActions {
+        position: relative;
+        margin-right: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: auto;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .notification{
+        border-left:1px solid #dadada;
+        height: 50px;
+        padding: 13px;
+        .btnNotification {
+            margin: 5px;
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    .dropdown{
+        border-left:1px solid #dadada;
+    }
+    .user-dropdown{
+        background-color:#fff;
+        border-color: #fff;
+        font-size: 9px;
+        line-height: 30px;
+        width: 188px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        &:focus, &.focus {
+            box-shadow: 0 0 0 0!important
+        }
+        &:active, &.active {
+            color: inherit!important;
+            background-color:inherit!important;
+            border-color:#fff!important;
+        }
+        &:hover, &.hover {
+            color: #b33efe ;
+        }
+        .userAvatar {
+            display: inline-block;
+            color: #ee00fb;
+            border-radius: 50%;
+            margin:0 5px ;
+            padding: 0;
+            border: none;
+            font-size: 30px
+        }
+    }
+}
+
+
